@@ -64,6 +64,7 @@ In this chapter you find some recommendations how to get started and how to veri
 - up should show 0x01 as POS
 - down should show 0x02 as POS
 - center should show 0x00 as POS
+
 Trouble shooting: 
 - if you get no messages, check the wireing
 - if you don't get these values at the positions, change the following defines
@@ -85,6 +86,7 @@ Trouble shooting:
  - 50% should show 0x2 as POS
  - 75% should show 0x3 as POS
  - max should show 0x4 as POS
+   
 Trouble shooting:
 - if you get no messages, check the wireing
 - if you don't get these values at the positions, change the following defines
@@ -102,6 +104,7 @@ Trouble shooting:
 - download the scetch with a short push of the reset button on the Teensy board
 - pushing the buttons will send a debug message in the serial monitor
 - turning the rotary knob for Feed and Speed will trigger a debug message in the serial monitor
+
 Trouble shooting: 
 - if you get no messages, check the wireing
 - if spinle and feed is mixed up, change wireing or position of the rotary encoders
