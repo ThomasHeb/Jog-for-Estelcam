@@ -54,7 +54,7 @@ In this chapter you find some recommendations how to get started and how to veri
 
 ## Connecting and testing the joystick
 - connect the joystick as shown under wiring
-- uncomment the #define #define _DebugJoystick in the scetch. this enables the debugging of the joystick in the serial monitor
+- uncomment the #define #define _DebugJoystick in the scetch. This enables the debugging of the joystick in the serial monitor
 - verify the scetch
 - download the scetch with a short push of the reset button on the Teensy board
 - pressing the joystick will witch on the onboard LED
@@ -67,12 +67,58 @@ In this chapter you find some recommendations how to get started and how to veri
 Trouble shooting: 
 - if you get no messages, check the wireing
 - if you don't get these values at the positions, change the following defines
-- - #define Center          0x00
-- - #define Left            0x20
-- - #define Right           0x10     
-- - #define Up              0x01 
-- - #define Down            0x02
+ - #define Center          0x00
+ - #define Left            0x20
+ - #define Right           0x10     
+ - #define Up              0x01 
+ - #define Down            0x02
 
 
+## Connecting and testing the slider
+- connect the slider as shown under wiring
+- uncomment the #define #define _DebugSlider in the scetch. This enables the debugging of the slider in the serial monitor
+- verify the scetch
+- download the scetch with a short push of the reset button on the Teensy board
+- moving the slider will trigger a debug message in the serial monitor
+ - min should show 0x0 as POS
+ - 25% should show 0x1 as POS
+ - 50% should show 0x2 as POS
+ - 75% should show 0x3 as POS
+ - max should show 0x4 as POS
+Trouble shooting:
+- if you get no messages, check the wireing
+- if you don't get these values at the positions, change the following defines
+ - #define Position1       0x0
+ - #define Position2       0x1
+ - #define Position3       0x2
+ - #define Position4       0x3
+ - #define Position5       0x4
 
+
+## Connecting and testing the buttons and rotary encoder
+- connect the buttons and rotary encoder as shown under wiring
+- uncomment the #define #define _DebugButtons in the scetch. This enables the debugging in the serial monitor
+- verify the scetch
+- download the scetch with a short push of the reset button on the Teensy board
+- pushing the buttons will send a debug message in the serial monitor
+- turning the rotary knob for Feed and Speed will trigger a debug message in the serial monitor
+Trouble shooting: 
+- if you get no messages, check the wireing
+- if spinle and feed is mixed up, change wireing or position of the rotary encoders
+- if the direction is not correct, enable/disable de defines below
+ - #define FeedDirection
+ - #define SpindleDirection
+
+
+# How to use
+The Teensy acts as additional keyboard. So you can define the keys in Estelcam as shown below
+
+Bild here
+
+Phushing the joystick will enter the jog mode. You can move the axis with the joystick and the buttons. Increase/decrease the jog speed with the slider.
+Feed and Spindle speed can be adjusted with the rotary knobs.
+
+
+## Known limitations
+The slider emulates a key down. Move the slider to min at the end of jogging.
 
