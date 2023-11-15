@@ -67,11 +67,11 @@ In this chapter you find some recommendations how to get started and how to veri
 Trouble shooting: 
 - if you get no messages, check the wireing
 - if you don't get these values at the positions, change the following defines
-#define Center          0x00
-#define Left            0x20
-#define Right           0x10     
-#define Up              0x01 
-#define Down            0x02
+-- #define Center          0x00
+-- #define Left            0x20
+-- #define Right           0x10     
+-- #define Up              0x01 
+-- #define Down            0x02
 
 
 
