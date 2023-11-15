@@ -52,6 +52,7 @@ Hier BIld
 # How to start
 In this chapter you find some recommendations how to get started and how to verify your project.
 
+
 ## Connecting and testing the joystick
 - connect the joystick as shown under wiring
 - uncomment the #define #define _DebugJoystick in the scetch. This enables the debugging of the joystick in the serial monitor
@@ -73,6 +74,7 @@ Trouble shooting:
  - #define Right           0x10     
  - #define Up              0x01 
  - #define Down            0x02
+
 
 
 ## Connecting and testing the slider
@@ -97,6 +99,7 @@ Trouble shooting:
  - #define Position5       0x4
 
 
+
 ## Connecting and testing the buttons and rotary encoder
 - connect the buttons and rotary encoder as shown under wiring
 - uncomment the #define #define _DebugButtons in the scetch. This enables the debugging in the serial monitor
@@ -111,6 +114,8 @@ Trouble shooting:
 - if the direction is not correct, enable/disable de defines below
  - #define FeedDirection
  - #define SpindleDirection
+
+
 
 
 # How to use
