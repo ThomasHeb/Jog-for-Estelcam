@@ -1,5 +1,5 @@
 ## What is new?
-- ...
+- in preparation.....
 
 
 ## What is coming next?
