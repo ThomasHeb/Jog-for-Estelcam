@@ -49,19 +49,7 @@ Hier BIld
 - the Teensy Loader opens and requests a short push of the Reset button on the teensy board
 
 
-//
-// ===========================================================================================
-// How to get startet:
-// Wire the hardware step by step and test eachstep with the related debug function.
-// Enabling the ebugfunktion will show debugging information on the serial monitor.
-//
-// wireing: See section Pin-Out
-// 
-
-
-
-
-# how to start
+# How to start
 In this chapter you find some recommendations how to get started and how to verify your project.
 
 ## Connecting and testing the joystick
@@ -83,6 +71,8 @@ Trouble shooting:
 #define Left            0x20
 #define Right           0x10     
 #define Up              0x01 
-#define Down            0x02     
+#define Down            0x02
+
+
 
 
