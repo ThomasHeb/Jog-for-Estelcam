@@ -1,5 +1,5 @@
 ## What is new?
-- in preparation.....
+- ...
 
 
 ## What is coming next?
@@ -121,7 +121,7 @@ Trouble shooting:
 # How to use
 The Teensy acts as additional keyboard. So you can define the keys in Estelcam as shown below
 
-![03](https://github.com/ThomasHeb/Jog-for-Estelcam/blob/main/img/3.jpg)
+![03](https://github.com/ThomasHeb/Jog-for-Estelcam/blob/main/img/3.png)
 
 Phushing the joystick will enter the jog mode. You can move the axis with the joystick and the buttons. Increase/decrease the jog speed with the slider.
 Feed and Spindle speed can be adjusted with the rotary knobs.
