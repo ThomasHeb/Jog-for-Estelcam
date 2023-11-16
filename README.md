@@ -22,7 +22,7 @@ The following functions are implemented:
 The Teensy LC is emulating the keyboard. The firmware is a simple scetch written in the Arduino IDE.
 
 
-Hier BIld
+![04](https://github.com/ThomasHeb/Jog-for_estelcam/blob/main/img/04.png)
 
 
 # Hardware
