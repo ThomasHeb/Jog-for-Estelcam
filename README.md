@@ -22,7 +22,7 @@ The following functions are implemented:
 The Teensy LC is emulating the keyboard. The firmware is a simple scetch written in the Arduino IDE.
 
 
-![04](https://github.com/ThomasHeb/Jog-for_estelcam/blob/main/img/04.png)
+![04](https://github.com/ThomasHeb/Jog-for-Estelcam/blob/main/img/4.jpg)
 
 
 # Hardware
@@ -121,10 +121,13 @@ Trouble shooting:
 # How to use
 The Teensy acts as additional keyboard. So you can define the keys in Estelcam as shown below
 
-Bild here
+![03](https://github.com/ThomasHeb/Jog-for-Estelcam/blob/main/img/3.jpg)
 
 Phushing the joystick will enter the jog mode. You can move the axis with the joystick and the buttons. Increase/decrease the jog speed with the slider.
 Feed and Spindle speed can be adjusted with the rotary knobs.
+
+See [Link](https://github.com/ThomasHeb/Jog-for-Estelcam/blob/main/img/video.MOV)
+
 
 
 ## Known limitations
