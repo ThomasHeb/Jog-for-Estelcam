@@ -19,7 +19,7 @@ The following functions are implemented:
 - slider for speed of the axis
 - rotary knobs for feed and spindle speed
 
-The Teensy LC is emulating the keyboard. The firmware is a simple scetch written in the Arduino IDE.
+The Teensy LC is emulating the keyboard. The firmware is a simple sketch written in the Arduino IDE.
 
 
 ![04](https://github.com/ThomasHeb/Jog-for-Estelcam/blob/main/img/4.jpg)
@@ -37,11 +37,11 @@ The Teensy LC is emulating the keyboard. The firmware is a simple scetch written
 
 # Firmware
 
-- the Firmware is written as a scetch in the Arduino IDE
+- the Firmware is written as a sketch in the Arduino IDE
 - more information about Teensy LC [Link](https://www.prjc.com/teensy)   
 - download and update the Arduino IDE >2.0.x with Teensyduino to get hardware support and additional USB functionality [Link](https://www.pjrc.com/teensy/td_download.html)
 - open Arduino IDE
-- open the scetch
+- open the sketch
 - select Teensy LC as board
 - select Tools > USB Type > Keyboard in Arduino IDE to enable Keyboard HID
 - select Tools > Keyboard Layout < Germany 
@@ -55,9 +55,9 @@ In this chapter you find some recommendations how to get started and how to veri
 
 ## Connecting and testing the joystick
 - connect the joystick as shown under wiring
-- uncomment the #define #define _DebugJoystick in the scetch. This enables the debugging of the joystick in the serial monitor
-- verify the scetch
-- download the scetch with a short push of the reset button on the Teensy board
+- uncomment the #define #define _DebugJoystick in the sketch. This enables the debugging of the joystick in the serial monitor
+- verify the sketch
+- download the sketch with a short push of the reset button on the Teensy board
 - pressing the joystick will witch on the onboard LED
 - moving the joystick will send codes to the serial monitor inside the Arduino IDE (15200 baud)
 - left should show 0x20 as POS
@@ -79,9 +79,9 @@ Trouble shooting:
 
 ## Connecting and testing the slider
 - connect the slider as shown under wiring
-- uncomment the #define #define _DebugSlider in the scetch. This enables the debugging of the slider in the serial monitor
-- verify the scetch
-- download the scetch with a short push of the reset button on the Teensy board
+- uncomment the #define #define _DebugSlider in the sketch. This enables the debugging of the slider in the serial monitor
+- verify the sketch
+- download the sketch with a short push of the reset button on the Teensy board
 - moving the slider will trigger a debug message in the serial monitor
  - min should show 0x0 as POS
  - 25% should show 0x1 as POS
@@ -102,9 +102,9 @@ Trouble shooting:
 
 ## Connecting and testing the buttons and rotary encoder
 - connect the buttons and rotary encoder as shown under wiring
-- uncomment the #define #define _DebugButtons in the scetch. This enables the debugging in the serial monitor
-- verify the scetch
-- download the scetch with a short push of the reset button on the Teensy board
+- uncomment the #define #define _DebugButtons in the sketch. This enables the debugging in the serial monitor
+- verify the sketch
+- download the sketch with a short push of the reset button on the Teensy board
 - pushing the buttons will send a debug message in the serial monitor
 - turning the rotary knob for Feed and Speed will trigger a debug message in the serial monitor
 
