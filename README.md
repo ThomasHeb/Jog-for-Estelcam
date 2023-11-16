@@ -31,9 +31,10 @@ The Teensy LC is emulating the keyboard. The firmware is a simple sketch written
 - 2x rotary encoder KY-040 or similar [Link](https://www.amazon.de/s?k=rotary+encoder+ky-040&__mk_de_DE=ÅMÅŽÕÑ&crid=94ARQ2T8IVQT&sprefix=rotary+encoder+ky-040%2Caps%2C101&ref=nb_sb_noss_1)
 - 1x potentiometer 10k.... 100k [Link](https://www.amazon.de/RoboMall-Linear-Poti-Schiebepotentiometer-2-Fach/dp/B01KZM135I/ref=sr_1_5?__mk_de_DE=ÅMÅŽÕÑ&crid=33N7B9JL6OH87&keywords=linear+poti&qid=1700078468&sprefix=linear+poti%2Caps%2C137&sr=8-5)
 - 2x push button [Link](https://www.amazon.de/RUNCCI-YUN-Wasserdicht-Druckknopf-Autotrompete-Haustürklingel/dp/B08P4CC8V6/ref=sr_1_22_sspa?__mk_de_DE=ÅMÅŽÕÑ&crid=Y0GVKG4ZISSB&keywords=drucktaster&qid=1700078583&sprefix=drucktaster%2Caps%2C123&sr=8-22-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1)
-- 1x joystick Ky-023 [Link](https://www.amazon.de/AZDelivery-Joystick-KY-023-Arduino-gratis/dp/B07V3HQSVY/ref=sr_1_2_sspa?__mk_de_DE=ÅMÅŽÕÑ&crid=1EICNRSPPHWXX&keywords=joystick+arduino&qid=1700078535&sprefix=joystickl+arduino%2Caps%2C101&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
+- 1x joystick KY-023 [Link](https://www.amazon.de/AZDelivery-Joystick-KY-023-Arduino-gratis/dp/B07V3HQSVY/ref=sr_1_2_sspa?__mk_de_DE=ÅMÅŽÕÑ&crid=1EICNRSPPHWXX&keywords=joystick+arduino&qid=1700078535&sprefix=joystickl+arduino%2Caps%2C101&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 
 # Wiring
+![06](https://github.com/ThomasHeb/Jog-for-Estelcam/blob/main/img/6.png)
 
 # Firmware
 
