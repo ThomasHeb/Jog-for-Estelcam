@@ -56,10 +56,10 @@ In this chapter you find some recommendations how to get started and how to veri
 
 ## Connecting and testing the joystick
 - connect the joystick as shown under wiring
-- uncomment the #define #define _DebugJoystick in the sketch. This enables the debugging of the joystick in the serial monitor
+- uncomment the #define _DebugJoystick in the sketch. This enables the debugging of the joystick in the serial monitor
 - verify the sketch
 - download the sketch with a short push of the reset button on the Teensy board
-- pressing the joystick will witch on the onboard LED
+- pressing the joystick will switch on the onboard LED
 - moving the joystick will send codes to the serial monitor inside the Arduino IDE (15200 baud)
 - left should show 0x20 as POS
 - right should show 0x10 as POS
